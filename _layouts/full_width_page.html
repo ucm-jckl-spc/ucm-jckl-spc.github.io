@@ -1,0 +1,27 @@
+{% include document_head.html %}
+
+{% include header.html %}
+
+
+<section class="content">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12 pl-0">
+        {% include breadcrumb.html %}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 pl-0">
+        {{ content }}
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+{% include footer.html %}
+
+{% include document_end.html %}

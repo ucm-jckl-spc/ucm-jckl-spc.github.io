@@ -1,0 +1,59 @@
+---
+---
+
+$navy_blue: #34495e;
+
+.spc-top-tabs{
+  padding-top: 50px;
+  background-color: $navy_blue;
+
+  .container{
+    padding: 0;
+  }
+
+  .nav-tabs{
+    border-width: 0;
+
+    .nav-link{
+      display: block;
+      height: 100%;
+      color: white;
+      border-width: 0;
+
+      &.active{
+        color: black;
+      }
+    }
+  }
+
+}
+
+.sidebar{
+  padding-right: 25px;
+
+  .sidebar-collections-menu{
+    h2{
+      margin: 0;
+      font-size: 1.1rem;
+      color: white;
+      background-color: $navy_blue;
+    }
+  }
+}
+
+.content{
+  min-height: 800px;
+
+  .container{
+    padding: 0;
+  }
+
+  .breadcrumb{
+    margin: 20px 0;
+    background: none;
+  }
+
+  .card-title{
+    font-size: 1.5rem;
+  }
+}
