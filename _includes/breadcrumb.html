@@ -1,3 +1,12 @@
+{% if page.include_breadcrumb %}
 <div class="breadcrumb">
-  <a href="#">JCKL Special Collections</a> / Home
+  <a href="/">JCKL Special Collections</a>
+  {% if page.collection %}
+    {% assign collection = site.collections | where: "label", page.collection | first %}
+    {% assign collection_url = collection.index_page %}
+    {% assign collection_title = collection.title %}
+    / <a href="{{ collection_url }}">{{ collection.title }}</a>
+  {% endif %}
+  / {{ page.title }}
 </div>
+{% endif %}

@@ -1,0 +1,45 @@
+{% assign document = site.data[ page.collection ][page.slug] %}
+{% if document == nil %}
+
+  {% assign collection = site.collections | where: "label", page.collection | first %}
+  {% assign redirect_url = collection.index_page %}
+  {% include redirect.html url=redirect_url %}
+
+{% else %}
+
+  {% include document_head.html %}
+
+  {% include header.html %}
+
+
+  <section class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 pl-0">
+          {% include breadcrumb.html %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 pl-0">
+          <h1>{{ document.title }}</h1>
+          {{ content }}
+
+          <a href="{{ document.repository_url }}">More Information</a> |
+          <a href="{{ document.pdf_url }}">Download</a>
+
+          <div class=book_container"">
+            <div id="book" data-url="{{ document.pdf_url }}"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  {% include footer.html %}
+
+  {% include document_end.html %}
+
+{% endif %}

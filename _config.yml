@@ -26,9 +26,27 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+
+# Collection settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      include_breadcrumb: true
+  - scope:
+      path: ""
+      type: rhetors
+    values:
+      layout: pdf_viewer
+
+
+collections:
+  rhetors:
+    output: true
+    permalink: /:collection/:title
+    index_page: /rhetors/
+    title: Rhetors Yearbook Collection
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
