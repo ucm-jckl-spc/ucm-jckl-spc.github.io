@@ -11,7 +11,7 @@ $(document).ready(function(){
     centeredWhenClosed : true,
     hardcovers : true,
     pageNumbers: false,
-    toolbar : "lastLeft, left, right, lastRight, toc, zoomin, zoomout, slideshow, flipsound, fullscreen, thumbnails, download",
+    toolbar : "lastLeft, left, right, lastRight, toc, zoomin, zoomout, slideshow, fullscreen, thumbnails, download",
     thumbnailsPosition : 'left',
     responsiveHandleWidth : 50,
 
