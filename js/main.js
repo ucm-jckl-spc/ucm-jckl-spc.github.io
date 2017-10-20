@@ -11,7 +11,7 @@ $(document).ready(function(){
     centeredWhenClosed : true,
     hardcovers : true,
     pageNumbers: false,
-    toolbar : "lastLeft, left, right, lastRight, toc, zoomin, zoomout, slideshow, fullscreen, thumbnails, download",
+    toolbar : "lastLeft, left, right, lastRight, toc, find, zoomin, zoomout, slideshow, fullscreen, thumbnails, download",
     thumbnailsPosition : 'left',
     responsiveHandleWidth : 50,
 
@@ -23,6 +23,7 @@ $(document).ready(function(){
 
     // The pdf and your webpage must be on the same domain
     pdf: pdf_url,
+    pdfFind: true,
 
     // Uncomment the option toc to create a Table of Contents
     // toc: [                    // table of contents in the format
