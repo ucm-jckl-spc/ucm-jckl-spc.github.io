@@ -24,6 +24,10 @@ $(document).ready(function(){
     // The pdf and your webpage must be on the same domain
     pdf: pdf_url,
     pdfFind: true,
+    pdfTextSelectable: true,
+    pdfProgressiveRender: true,
+    pdfcMapPacked: true,
+
 
     // Uncomment the option toc to create a Table of Contents
     // toc: [                    // table of contents in the format
