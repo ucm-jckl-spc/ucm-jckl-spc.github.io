@@ -3,10 +3,8 @@ $(document).ready(function(){
   var pdf_url = $('#book').data('url');
 
   var bookOptions = {
-    height   : 500,
-    width    : 800,
-    // maxWidth : 800,
-    maxHeight : 600,
+    height       : 1100,
+    width        : 1700,
 
     centeredWhenClosed : true,
     hardcovers : true,
@@ -19,6 +17,7 @@ $(document).ready(function(){
 
     container: true,
     containerPadding: "20px",
+    containerHeight: "100%",
     // toolbarContainerPosition: "top" // default "bottom"
 
     // The pdf and your webpage must be on the same domain
