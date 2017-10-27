@@ -1,13 +1,9 @@
 
 "1907":
   title: 1907 Rhetor
-  pdf_url: /pdfs/rhetor_1907.pdf #http://centralspace.ucmo.edu/bitstream/handle/123456789/514/Rhetor_1908_LD3429.8_2017_Access.pdf?sequence=1&isAllowed=y
+  pdf_url: http://centralspace.ucmo.edu/bitstream/handle/123456789/514/Rhetor_1908_LD3429.8_2017_Access.pdf?sequence=1&isAllowed=y
   repository_url: http://centralspace.ucmo.edu/handle/123456789/516
 "1908":
   title: 1908 Rhetor
-  pdf_url: /pdfs/rhetor_1908.pdf #http://centralspace.ucmo.edu/bitstream/handle/123456789/514/Rhetor_1908_LD3429.8_2017_Access.pdf?sequence=1&isAllowed=y
-  repository_url: http://centralspace.ucmo.edu/handle/123456789/514
-"1908_broken":
-  title: 1908 Rhetor Test
-  pdf_url: https://centralspace-test.ucmo.edu/bitstream/handle/123456789/404/Gascon_MUSIC.pdf?sequence=1&isAllowed=y
+  pdf_url: http://centralspace.ucmo.edu/bitstream/handle/123456789/514/Rhetor_1908_LD3429.8_2017_Access.pdf?sequence=1&isAllowed=y
   repository_url: http://centralspace.ucmo.edu/handle/123456789/514
