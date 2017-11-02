@@ -8,7 +8,7 @@ include_breadcrumb: false
 <h1 class="sr-only">JCKL Special Collections</h1>
 
 <div class="col-md-12 pl-0">
-  <div class="card card-inverse">
+  <div class="card text-white">
     <img class="card-img" src="http://via.placeholder.com/810x200" alt="Card image">
     <div class="card-img-overlay">
       <h2 class="card-title">Title</h2>
@@ -22,21 +22,21 @@ include_breadcrumb: false
     <div class="card">
       {% assign collection = site.collections | where: 'label', 'rhetors' | first %}
       <img class="card-img-top" src="http://via.placeholder.com/265x200" alt="Card image cap">
-      <div class="card-block">
+      <div class="card-body">
         <h2 class="card-title"><a href="{{ collection.index_page }}">{{ collection.title }}</a></h2>
         <p class="card-text">This is a description of the collection.</p>
       </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="http://via.placeholder.com/265x200" alt="Card image cap">
-      <div class="card-block">
+      <div class="card-body">
         <h2 class="card-title">Collection 2</h2>
         <p class="card-text">This is a description of the collection.</p>
       </div>
     </div>
     <div class="card">
       <img class="card-img-top" src="http://via.placeholder.com/265x200" alt="Card image cap">
-      <div class="card-block">
+      <div class="card-body">
         <h2 class="card-title">Collection 3</h2>
         <p class="card-text">This is a description of the collection.</p>
       </div>
